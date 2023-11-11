@@ -2,15 +2,46 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   background-color: #f4f4f4;
+  background-image: url(../rock-paper-scissors-hand-gesture-free-vector.jpg);
+  
 }
+
 .boton-jugada {
   background-color: #3498db;
   color: #fff;
-  padding: 10px 20px;
+  padding: 10px 50px;
   font-size: 16px;
   cursor: pointer;
+  border: none;
+  margin-top: 12.5%;
 }
+
 #resultados {
+  color: green;
+  font-weight: bold;
   font-size: 20px;
   margin: 20px 0;
+}
+  
+.boton-jugada:hover{
+background-color: coral;
+transform: scale(1.2);
+border: none;
+margin: 0px 20px;
+}
+
+h1 {
+  background-color: white;
+  margin-left: 725px;
+  margin-right: 725px;
+  margin-top: 3%;
+  color: #3498db;
+  text-decoration: underline;
+}
+
+#contador-usuario, #contador-ordenador{
+  margin-top: 2%;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
 }
